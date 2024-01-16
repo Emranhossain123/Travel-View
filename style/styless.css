@@ -37,6 +37,15 @@
 
 }
 
+.zone {
+    color: #FF5400;
+
+    font-size: 32px;
+
+    font-weight: 800;
+
+}
+
 .menu {
     display: flex;
 
@@ -196,7 +205,10 @@ li>a {
     font-weight: 400;
     border-radius: 8px;
     background: #FF5400;
-    padding: 5px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border: none;
 
 }
 
@@ -265,6 +277,10 @@ div .row1 {
     padding-left: 10px;
 }
 
+.row1 img {
+    width: 100%;
+}
+
 .list {
     padding-left: 100px;
 }
@@ -275,6 +291,10 @@ div .row1 {
     gap: 20px;
     margin-left: 10px;
     padding-left: 10px;
+}
+
+.row2 img {
+    width: 100%;
 }
 
 .row4 {
@@ -436,6 +456,45 @@ div .row1 {
     font-weight: 400;
 }
 
+.evening {
+    height: 100%;
+    width: 80%;
+    padding-left: 40px;
+}
+
+.amet {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.amet1 {
+    text-align: center;
+    padding-left: 40px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.design {
+    display: flex;
+    padding: 50px;
+    gap: 40px;
+}
+
+.moon {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.dark {
+    color: #FF5400;
+}
+
 .denim {
     height: 500px;
     width: 1280px;
@@ -497,27 +556,4 @@ div .row1 {
 }
 
 
-
-@media screen and (max-width: 600px) {
-    /* .banner {
-
-        height: 50%;
-        width: 50%;
-        position: sticky;
-    }
-
-    .explor {
-        font-size: smaller;
-    }
-
-    .form {}
-
-
-
-    .letter {
-        display: flex;
-        flex-direction: column;
-    } */
-
-
-}
+@media screen and (min-width:992px) and (max-width: 1200px) {}
