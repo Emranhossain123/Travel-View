@@ -265,6 +265,10 @@ div .row1 {
     padding-left: 10px;
 }
 
+.list {
+    padding-left: 100px;
+}
+
 .row2 {
 
     display: flex;
