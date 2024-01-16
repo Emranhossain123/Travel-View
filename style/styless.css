@@ -255,11 +255,14 @@ div .row1 {
 
 }
 
+
+
 .row1 {
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
+    padding-left: 10px;
 }
 
 .row2 {
@@ -267,6 +270,7 @@ div .row1 {
     display: flex;
     gap: 20px;
     margin-left: 10px;
+    padding-left: 10px;
 }
 
 .row4 {
