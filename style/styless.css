@@ -559,7 +559,11 @@ div .row1 {
     .looser {
         flex-direction: column;
 
-        width: fit-content;
+    }
+
+    .yarn1 {
+        width: 100%;
+        text-align: left;
     }
 
     .list {
