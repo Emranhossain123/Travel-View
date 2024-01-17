@@ -556,6 +556,64 @@ div .row1 {
 }
 
 @media screen and (max-width: 600px) {
+    .banner {
+        margin-top: 0%;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 80%;
+        background-size: auto;
+    }
+
+    .banner1 {
+        position: relative;
+        top: 10px;
+        left: 0;
+    }
+
+    .explor {
+        font-size: x-large;
+    }
+
+    .say {
+        text-align: center;
+    }
+
+    .form {
+
+        width: 150px;
+        height: 250px;
+        position: relative;
+        right: 5rem;
+
+    }
+
+    .where {
+        text-align: center;
+        position: relative;
+
+        left: .11rem;
+    }
+
+    .when {
+        position: relative;
+        top: 1rem;
+        left: .1rem;
+    }
+
+    .select {
+        position: relative;
+        top: 2rem;
+        left: .1rem;
+    }
+
+    .find {
+        position: relative;
+        top: 3rem;
+        left: .1rem;
+    }
+
+
+
     .looser {
         flex-direction: column;
 
