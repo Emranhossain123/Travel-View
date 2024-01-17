@@ -555,5 +555,126 @@ div .row1 {
     font-weight: 300;
 }
 
+@media screen and (max-width: 600px) {
+    .looser {
+        flex-direction: column;
 
-@media screen and (min-width:992px) and (max-width: 1200px) {}
+        width: fit-content;
+    }
+
+    .list {
+        margin-top: 10px;
+        width: fit-content;
+        padding-left: 0%;
+    }
+
+    .row {
+        flex-direction: column;
+        margin-right: 10px;
+
+    }
+
+    .row img {
+        width: 100%;
+
+    }
+
+    .row1 {
+        flex-direction: column;
+        margin-right: 10px;
+
+    }
+
+    .row1 img {
+        width: 100%;
+    }
+
+    .row2 {
+        flex-direction: column;
+        margin-right: 10px;
+    }
+
+    .r0w2 img {
+        width: 100%;
+    }
+
+    .row4 {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .row5 {
+        flex-direction: column;
+        width: fit-content;
+        margin-right: 20px;
+    }
+
+    .row9 {
+        margin-right: 20px;
+        margin-left: 20px;
+        width: fit-content;
+    }
+
+    .letter {
+        flex-direction: column;
+        gap: .5rem;
+
+    }
+
+    .fiber {
+        position: relative;
+        left: .5rem;
+        margin: 10px;
+    }
+
+    .fiber3 {
+        width: 200px;
+    }
+
+    .fiber4 {
+        width: 200px;
+    }
+
+    .fiber5 {
+        margin-top: 10px;
+        width: 95%;
+    }
+
+    .fiber6 {
+
+        left: 20%;
+
+
+    }
+
+    .design {
+        flex-direction: column;
+    }
+
+    .evening {
+        padding-left: 10px;
+        width: 100%;
+        height: 50%;
+    }
+
+    .denim {
+        height: fit-content;
+        width: fit-content;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    .knit4 {
+        padding-top: 5%;
+        padding-left: 20%;
+        margin-bottom: 10px;
+    }
+
+    .end {
+        margin-top: 5%;
+
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {}
